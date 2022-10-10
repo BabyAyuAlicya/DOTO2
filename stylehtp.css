@@ -1,0 +1,195 @@
+    .header {
+        background-image: url(./images/bg\ header.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 130px;
+        /* padding-left: 10px; */
+        /* line-height: 100px;  */
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .img-header {
+        position: relative;
+        align-items: center;
+        margin-top: 15px;
+    }
+    
+    .nav {
+        cursor: pointer;
+        display: inline-block;
+        width: 30px;
+        height: 5px;
+        background-color: black;
+        transition: 0.3s;
+        margin-top: 10px;
+    }
+    
+    .rotate #button1 {
+        transform: rotate(-45deg), translate(-9px, 6px);
+    }
+    
+    .rotate #button2 {
+        opacity: 0;
+    }
+    
+    .rotate #button3 {
+        transform: rotate(45deg), translate(-8px, -8px);
+    }
+    
+    * {
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url(fore.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #footer {
+        background-image: url(./images/moon\ footer.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 18%;
+        padding-left: 10px;
+        line-height: 50px;
+        position: relative;
+        bottom: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #footer p {
+        font-family: 'subspace';
+        font-size: 35px;
+        color: white;
+        text-align: center;
+    }
+    
+    .sosmed {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: max-content;
+        height: max-content;
+        margin: 15px;
+        padding-left: 800px;
+    }
+    
+    #facebook {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    
+    .copyright {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+    
+    .htp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .video {
+        width: 200;
+        height: 50;
+    }
+    
+    .box {
+        background-color: rgba(255, 255, 255, 0.562);
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-bottom: 25px;
+    }
+    
+    .box img {
+        width: 300px;
+        height: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        position: relative;
+    }
+    
+    .title {
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .title a {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: larger;
+    }
+    
+    .desc h2 {
+        font-size: 200%;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 4%;
+        padding-bottom: 2%;
+        color: rgb(75, 71, 71);
+    }
+    
+    .htp h3 {
+        font-size: 200%;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        color: black;
+        font-display: center;
+        text-align: center;
+    }
+    
+    .htp p {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-bottom: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .boxtop {
+        margin-top: 5px;
+        /* background-color: rgba(255, 255, 255, 0.562);
+    width: 95%;
+    display: flex;
+    flex-direction: row; */
+        position: center;
+        margin-bottom: 2px;
+        text-align: center;
+    }
+    
+    .topdesc {
+        color: black;
+        margin-left: 10px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: justify;
+    }
